@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "JF Flat Regular";
+    src: url(../fonts/JF-Flat-regular.eot) format('embedded-opentype'), url('../fonts/JF-Flat-regular.svg#JF Flat Regular') format('svg'), url(../fonts/JF-Flat-regular.woff) format('woff'), url(../fonts/JF-Flat-regular.ttf) format('truetype');
+    font-weight: bolder;
+    font-style: normal
+}
+
+body {
+    font-family: "JF Flat Regular";
+    /* font-size: 18px !important; */
+    background-color: #f7f5f5;
+}
+
+table {
+    background-color: white;
+}
+
+input[type="number"] {
+    direction: rtl;
+    text-align: right;
+}
+
+input.form-control {
+    margin-top: 8px !important;
+    margin-bottom: 20px !important;
+}
+
+@media (max-width:1199px) {
+    .hide-on-small {
+        display: none !important
+    }
+}
+
+@media (max-width: 575.98px) {
+    .search-sm {
+        margin-top:-2px !important
+    }
+}
+
+@media (min-width:992px) {
+    .my-table{
+        margin-right: 30px;
+        margin-left: 30px
+    }
+}
+@media (max-width:370px) {
+    .current_read_input {
+        width: 40px !important;
+    }
+   
+}
